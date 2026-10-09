@@ -108,5 +108,38 @@
   "state": "NY",
   "zip": "12305",
   "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4954.386859620272!2d-73.9365691!3d42.811613699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de6faf9553318f%3A0x1b96944eda43a57c!2sBig%20Apple%20Car%20Shipping!5e1!3m2!1sen!2sus!4v1791506992010!5m2!1sen!2sus"
+ },
+ {
+  "slug": "brooklyn",
+  "name": "Brooklyn",
+  "phoneDisplay": "(929) 209-2194",
+  "phoneTel": "+19292092194",
+  "street": "1517 Voorhies Ave #1990",
+  "city": "Brooklyn",
+  "state": "NY",
+  "zip": "11235",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5128.888544042932!2d-73.9531868!3d40.585986299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2458d17bcfbdf%3A0x60c7305b141ac0f8!2sBig%20Apple%20Car%20Shipping!5e1!3m2!1sen!2sus!4v1791506999575!5m2!1sen!2sus"
+ },
+ {
+  "slug": "queens",
+  "name": "Queens",
+  "phoneDisplay": "(347) 970-7087",
+  "phoneTel": "+13479707087",
+  "street": "3763 83rd St #1450",
+  "city": "Queens",
+  "state": "NY",
+  "zip": "11372",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5116.443997857389!2d-73.8828492!3d40.7479973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25f9007967db1%3A0xb01eb10da62874d!2sBig%20Apple%20Car%20Shipping!5e1!3m2!1sen!2sus!4v1791507009913!5m2!1sen!2sus"
+ },
+ {
+  "slug": "hamburg",
+  "name": "Hamburg",
+  "phoneDisplay": "(716) 599-8067",
+  "phoneTel": "+17165998067",
+  "street": "4581 Lake Shore Rd #808",
+  "city": "Hamburg",
+  "state": "NY",
+  "zip": "14075",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4958.6089454857965!2d-78.8835241!3d42.758880600000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d31be63ec84e23%3A0xbab672c7819c5973!2sBig%20Apple%20Car%20Shipping!5e1!3m2!1sen!2sus!4v1791507017714!5m2!1sen!2sus"
  }
 ]
