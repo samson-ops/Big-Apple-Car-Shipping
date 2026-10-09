@@ -1,0 +1,112 @@
+[
+ {
+  "slug": "hempstead",
+  "name": "Hempstead",
+  "phoneDisplay": "(516) 973-1277",
+  "phoneTel": "+15169731277",
+  "street": "250 Fulton Ave #306",
+  "city": "Hempstead",
+  "state": "NY",
+  "zip": "11550",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5119.5689404349605!2d-73.62612349999999!3d40.7073649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c27dc7ad9d3cf9%3A0x48272b14159a284f!2sBig%20Apple%20Car%20Shipping!5e1!3m2!1sen!2sus!4v1791506920254!5m2!1sen!2sus"
+ },
+ {
+  "slug": "brookhaven",
+  "name": "Brookhaven",
+  "phoneDisplay": "(631) 490-7723",
+  "phoneTel": "+16314907723",
+  "street": "418 S Country Rd #306",
+  "city": "Brookhaven",
+  "state": "NY",
+  "zip": "11719",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5113.7312342012565!2d-72.915979!3d40.7832432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e84fee1d8cc145%3A0x8875f7c3a682bfc4!2sBig%20Apple%20Car%20Shipping!5e1!3m2!1sen!2sus!4v1791506928678!5m2!1sen!2sus"
+ },
+ {
+  "slug": "buffalo",
+  "name": "Buffalo",
+  "phoneDisplay": "(716) 526-8284",
+  "phoneTel": "+17165268284",
+  "street": "610 Main Street, City Centre #306",
+  "city": "Buffalo",
+  "state": "NY",
+  "zip": "14202",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4948.053921591362!2d-78.8730744!3d42.8906129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3136d4ad4e63d%3A0x1061da0053b217e0!2sBig%20Apple%20Car%20Shipping!5e1!3m2!1sen!2sus!4v1791506936104!5m2!1sen!2sus"
+ },
+ {
+  "slug": "babylon",
+  "name": "Babylon",
+  "phoneDisplay": "(631) 430-6725",
+  "phoneTel": "+16314306725",
+  "street": "57 W Main St #306",
+  "city": "Babylon",
+  "state": "NY",
+  "zip": "11702",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5120.410723434266!2d-73.3243342!3d40.696413799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e9d37142a471f3%3A0xbab6303f9f2a3376!2sBig%20Apple%20Car%20Shipping!5e1!3m2!1sen!2sus!4v1791506943938!5m2!1sen!2sus"
+ },
+ {
+  "slug": "north-hempstead",
+  "name": "North Hempstead",
+  "phoneDisplay": "(516) 979-3280",
+  "phoneTel": "+15169793280",
+  "street": "119 Jackson St #306",
+  "city": "Hempstead",
+  "state": "NY",
+  "zip": "11550",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5119.363791336383!2d-73.6271522!3d40.7100334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c27d206059aa91%3A0x3423007244ee4cc!2sBig%20Apple%20Car%20Shipping!5e1!3m2!1sen!2sus!4v1791506951300!5m2!1sen!2sus"
+ },
+ {
+  "slug": "islip",
+  "name": "Islip",
+  "phoneDisplay": "(631) 600-7932",
+  "phoneTel": "+16316007932",
+  "street": "350 Moffitt Blvd #306",
+  "city": "Islip",
+  "state": "NY",
+  "zip": "11751",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5117.350773405098!2d-73.210247!3d40.736210299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e8332b00ba0367%3A0xdfe24151e1627a5c!2sBig%20Apple%20Car%20Shipping!5e1!3m2!1sen!2sus!4v1791506958242!5m2!1sen!2sus"
+ },
+ {
+  "slug": "bronx",
+  "name": "Bronx",
+  "phoneDisplay": "(646) 969-3764",
+  "phoneTel": "+16469693764",
+  "street": "1000 Grand Concourse #350",
+  "city": "Bronx",
+  "state": "NY",
+  "zip": "10451",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5110.157132739875!2d-73.9206949!3d40.8296418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f5c44a69c1a1%3A0x7b8e95ca589e5853!2sBig%20Apple%20Car%20Shipping!5e1!3m2!1sen!2sus!4v1791506966139!5m2!1sen!2sus"
+ },
+ {
+  "slug": "yonkers",
+  "name": "Yonkers",
+  "phoneDisplay": "(914) 785-6974",
+  "phoneTel": "+19147856974",
+  "street": "570 Yonkers Ave #350",
+  "city": "Yonkers",
+  "state": "NY",
+  "zip": "10704",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5102.542612578564!2d-73.87090239999999!3d40.928348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f300eaf99df9%3A0x8f2bcab40ec443cb!2sBig%20Apple%20Car%20Shipping!5e1!3m2!1sen!2sus!4v1791506974913!5m2!1sen!2sus"
+ },
+ {
+  "slug": "albany",
+  "name": "Albany",
+  "phoneDisplay": "(518) 535-3703",
+  "phoneTel": "+15185353703",
+  "street": "111 Washington Ave #1750",
+  "city": "Albany",
+  "state": "NY",
+  "zip": "12210",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4966.895936917391!2d-73.7596911!3d42.655224600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de0ba8b75e8433%3A0x3b1c93361f135fa2!2sBig%20Apple%20Car%20Shipping!5e1!3m2!1sen!2sus!4v1791506983642!5m2!1sen!2sus"
+ },
+ {
+  "slug": "schenectady",
+  "name": "Schenectady",
+  "phoneDisplay": "(518) 855-3097",
+  "phoneTel": "+15188553097",
+  "street": "670 Franklin St #605",
+  "city": "Schenectady",
+  "state": "NY",
+  "zip": "12305",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4954.386859620272!2d-73.9365691!3d42.811613699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de6faf9553318f%3A0x1b96944eda43a57c!2sBig%20Apple%20Car%20Shipping!5e1!3m2!1sen!2sus!4v1791506992010!5m2!1sen!2sus"
+ }
+]

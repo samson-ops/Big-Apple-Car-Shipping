@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Car Shipping Locations in New York | Big Apple Car Shipping</title>
+<meta name="description" content="Big Apple Car Shipping offices in the Bronx, Yonkers, Long Island, Albany, Schenectady and Buffalo. Local numbers, addresses and instant car shipping quotes.">
+<link rel="canonical" href="{{domain}}/locations/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#c4121f">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Big Apple Car Shipping">
+<meta property="og:title" content="Car Shipping Locations in New York | Big Apple Car Shipping">
+<meta property="og:description" content="Ten local Big Apple Car Shipping offices across New York State, from the Bronx and Long Island to Albany and Buffalo.">
+<meta property="og:url" content="{{domain}}/locations/">
+<meta property="og:image" content="{{domain}}/assets/og-image.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{{schema}}</script>
+{{css}}
+<style>
+.loc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin-top:40px}
+.loc-card{background:var(--white);border:1px solid var(--rule);display:grid;grid-template-columns:1fr 200px;overflow:hidden}
+.loc-card .txt{padding:26px}
+.loc-card h2{font-size:30px;line-height:1.05;margin-bottom:8px}
+.loc-card h2 a{text-decoration:none}
+.loc-card h2 a:hover{color:var(--red)}
+.loc-card address{font-style:normal;color:var(--bk2);font-size:15px;margin-bottom:12px}
+.loc-card .tel{font-family:var(--cond);font-size:26px;font-weight:700;text-decoration:none;display:block;margin-bottom:6px}
+.loc-card .tel:hover{color:var(--red)}
+.loc-card p{font-size:15px;color:var(--bk2);margin:10px 0 0}
+.loc-card .btn{margin-top:16px;padding:11px 18px;font-size:18px}
+.loc-card iframe{width:100%;height:100%;min-height:220px;border:0;display:block}
+@media(max-width:1060px){.loc-grid{grid-template-columns:1fr}}
+@media(max-width:760px){.loc-card{grid-template-columns:1fr}.loc-card iframe{min-height:200px}}
+</style>
+</head>
+<body>
+{{header}}
+<main>
+<section class="section" style="padding-top:56px">
+  <div class="wrap">
+    <div class="section-title">
+      <h1 style="font-family:var(--cond);font-size:clamp(38px,4.6vw,58px);line-height:1">Car shipping offices in New York</h1>
+      <p>Ten local offices across New York, one dispatch team. Each page has the local number, directions a car hauler can actually follow, and what shipping typically costs from that part of the state.</p>
+    </div>
+    <div class="loc-grid">{{cards}}</div>
+  </div>
+</section>
+<section class="cta">
+  <div class="wrap">
+    <div><h2>Not near one of these offices?</h2><p>We pick up anywhere in New York and the rest of the country. The quote tool prices any ZIP code.</p></div>
+    <div class="cta-actions"><a class="btn btn-white" href="/#quote">See my price</a><a class="btn btn-line-light" href="tel:__PHONE_TEL__">Call __PHONE_DISPLAY__</a></div>
+  </div>
+</section>
+</main>
+{{footer}}
+</body>
+</html>

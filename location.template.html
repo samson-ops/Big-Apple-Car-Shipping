@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{metaDescription}}">
+<link rel="canonical" href="{{domain}}/{{slug}}-car-shipping/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#c4121f">
+<meta name="geo.region" content="US-NY">
+<meta name="geo.placename" content="{{city}}, New York">
+<meta name="geo.position" content="{{lat}};{{lng}}">
+<meta name="ICBM" content="{{lat}}, {{lng}}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Big Apple Car Shipping">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{metaDescription}}">
+<meta property="og:url" content="{{domain}}/{{slug}}-car-shipping/">
+<meta property="og:image" content="{{domain}}/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Big Apple Car Shipping logo">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{title}}">
+<meta name="twitter:description" content="{{metaDescription}}">
+<meta name="twitter:image" content="{{domain}}/assets/og-image.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="/assets/logo-480.webp" fetchpriority="high">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{{schema}}</script>
+{{css}}
+<style>
+/* ---- location page ---- */
+.crumbs{font-size:14px;color:var(--mute);padding:18px 0 0}
+.crumbs ol{list-style:none;margin:0;padding:0;display:flex;gap:8px;flex-wrap:wrap}
+.crumbs li+li::before{content:"/";margin-right:8px;color:var(--rule)}
+.crumbs a{text-decoration:none}
+.crumbs a:hover{color:var(--red)}
+.hero.loc .wrap{padding-top:28px}
+.hero.loc h1{font-size:clamp(34px,4vw,54px)}
+.office{display:grid;grid-template-columns:repeat(3,auto);gap:30px;margin-top:24px;padding-top:22px;border-top:2px solid var(--red);justify-content:start}
+.office b{display:block;font-family:var(--cond);font-size:22px;font-weight:600;line-height:1.1;color:var(--red)}
+.office span{font-size:14px;color:var(--mute)}
+.office a{text-decoration:none}
+.office a:hover{color:var(--red)}
+.loc-body{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:72px;align-items:start}
+.article h2{font-size:clamp(28px,3vw,38px);margin:52px 0 16px;line-height:1.05;padding-left:16px;border-left:5px solid var(--red)}
+.article h2:first-child{margin-top:0}
+.article p{margin:0 0 16px;color:var(--bk2);max-width:68ch}
+.article ul{margin:0 0 18px;padding-left:22px;color:var(--bk2);max-width:68ch}
+.article li{margin-bottom:8px}
+.article strong{color:var(--bk)}
+.article p a,.article li a,.article td a{color:var(--red);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.article p a:hover,.article li a:hover{color:var(--red-dark)}
+.intro p{font-size:19px;color:var(--bk)}
+.side{position:sticky;top:112px;display:grid;gap:28px}
+.side-card{background:var(--white);border:1px solid var(--rule);border-top:5px solid var(--red);padding:22px}
+.side-card h3{font-size:22px;margin-bottom:14px}
+.side-card address{font-style:normal;color:var(--bk2);font-size:15px;line-height:1.5}
+.side-card .big{display:block;font-family:var(--cond);font-size:30px;font-weight:700;text-decoration:none;margin:10px 0 4px;line-height:1}
+.side-card .big:hover{color:var(--red)}
+.side-card small{display:block;color:var(--mute);font-size:13px}
+.side-card .btn{width:100%;margin-top:16px}
+.map{aspect-ratio:4/3;border:1px solid var(--rule);background:var(--rule)}
+.map iframe{width:100%;height:100%;border:0;display:block}
+.side-list h3{font-size:20px;margin-bottom:10px}
+.side-list ul{list-style:none;margin:0;padding:0}
+.side-list li{border-bottom:1px solid var(--rule);padding:8px 0;font-size:15px}
+.side-list a{text-decoration:none}
+.side-list a:hover{color:var(--red)}
+.side-list a.cur{color:var(--red);font-weight:600}
+.hoods{display:flex;flex-wrap:wrap;gap:8px 10px;margin-top:18px;max-width:none}
+.hoods span{font-family:var(--cond);font-size:17px;font-weight:600;border:1.5px solid var(--red);color:var(--red);padding:5px 11px;background:var(--white)}
+table.routes.loc{margin-top:22px}
+table.routes.loc td:first-child{font-size:20px}
+.loc-faq{border-top:3px solid var(--red);margin-top:10px}
+.loc-faq details{border-bottom:1px solid var(--rule)}
+.loc-faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:18px;padding:18px 0;font-family:var(--cond);font-size:22px;font-weight:600;line-height:1.15}
+.loc-faq summary::-webkit-details-marker{display:none}
+.loc-faq summary::after{content:"+";flex:none;color:var(--red);font-size:28px;line-height:.8}
+.loc-faq details[open] summary::after{content:"–"}
+.loc-faq details p{padding:0 0 20px;color:var(--bk2);font-size:16px;max-width:68ch}
+.other{margin-top:56px;padding-top:28px;border-top:1px solid var(--rule)}
+.other h2{font-size:26px;margin:0 0 14px}
+.other ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.other a{font-family:var(--cond);font-size:18px;font-weight:600;text-decoration:none;border:1.5px solid var(--bk);padding:7px 14px;background:var(--white)}
+.other a:hover{background:var(--bk);color:#fff}
+@media(max-width:1060px){.loc-body{grid-template-columns:1fr;gap:44px}.side{position:static}}
+@media(max-width:760px){.crumbs li[aria-current]{display:none}.office{grid-template-columns:1fr 1fr;gap:16px}.hero.loc h1{font-size:28px}.hero.loc .wrap{padding-top:16px}}
+</style>
+</head>
+<body>
+{{header}}
+<main>
+<section class="hero loc">
+  <div class="wrap" style="display:block;padding-bottom:0">
+    <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/locations/">Locations</a></li><li aria-current="page">{{city}}, NY</li></ol></nav>
+  </div>
+  <div class="wrap">
+    <div>
+      <p class="hero-kicker">{{county}} · {{region}}</p>
+      <h1>{{h1}}</h1>
+      <p class="hero-sub">{{heroSub}}</p>
+      <div class="office">
+        <div><b><a href="tel:{{phoneTel}}">{{phoneDisplay}}</a></b><span>{{city}} office, 7 days</span></div>
+        <div><b>{{street}}</b><span>{{addrCity}}, NY {{zip}}</span></div>
+        <div><b>1–5 days</b><span>typical time to pickup</span></div>
+      </div>
+    </div>
+    <div class="quote-col" id="quote">
+      <h2 class="sr-only">Get an instant car shipping quote for {{city}}</h2>
+      <!--PRICING_TOOL-->
+      <p class="quote-note">Exact all-in price in about 60 seconds. No payment to see it.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap loc-body">
+    <article class="article">
+      <div class="intro">{{intro}}</div>
+      {{sections}}
+
+      <h2>Where we pick up around {{city}}</h2>
+      <p>Door-to-door service covers these communities from the {{city}} office, along with the rest of {{county}}. If you do not see your town, the quote tool prices any ZIP code.</p>
+      <div class="hoods">{{neighborhoods}}</div>
+
+      <h2>Popular routes from {{city}}</h2>
+      <p>Typical prices for a running mid-size sedan on an open carrier, booked about a week ahead. Enclosed trailers, oversized vehicles and peak-season dates run higher; the quote tool gives you the exact number.</p>
+      <table class="routes loc">
+        <thead><tr><th scope="col">Route</th><th scope="col">Transit</th><th scope="col">Typical price</th></tr></thead>
+        <tbody>{{routes}}</tbody>
+      </table>
+
+      <h2>Questions from {{city}} customers</h2>
+      <div class="loc-faq">{{faqs}}</div>
+
+      <div class="other">
+        <h2>Other Big Apple Car Shipping offices in New York</h2>
+        <ul>{{otherOffices}}</ul>
+      </div>
+    </article>
+
+    <aside class="side">
+      <div class="side-card">
+        <h3>Big Apple Car Shipping, {{city}}</h3>
+        <address>{{street}}<br>{{addrCity}}, NY {{zip}}</address>
+        <a class="big" href="tel:{{phoneTel}}">{{phoneDisplay}}</a>
+        <small>Open 7 days a week</small>
+        <a class="btn btn-red" href="#quote">Get my {{city}} quote</a>
+      </div>
+      <div class="map"><iframe src="{{map}}" title="Map of the Big Apple Car Shipping {{city}} office" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+      <div class="side-list">
+        <h3>New York offices</h3>
+        <ul>{{officeNav}}</ul>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <div>
+      <h2>Ship a car from {{city}}</h2>
+      <p>{{ctaLine}}</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-white" href="#quote">See my price</a>
+      <a class="btn btn-line-light" href="tel:{{phoneTel}}">Call {{phoneDisplay}}</a>
+    </div>
+  </div>
+</section>
+</main>
+{{footer}}
+</body>
+</html>

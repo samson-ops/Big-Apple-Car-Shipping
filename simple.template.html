@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{metaDescription}}">
+<link rel="canonical" href="{{domain}}/{{slug}}/">
+<meta name="robots" content="{{robots}}">
+<meta name="theme-color" content="#c4121f">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Big Apple Car Shipping">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{metaDescription}}">
+<meta property="og:url" content="{{domain}}/{{slug}}/">
+<meta property="og:image" content="{{domain}}/assets/og-image.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{{schema}}</script>
+{{css}}
+{{pagecss}}
+<style>
+.simple-hero{background:var(--white);border-bottom:1px solid var(--rule)}
+.simple-hero .wrap{padding:18px 24px 44px}
+.simple-hero h1{font-size:clamp(36px,4.4vw,56px);line-height:1;margin-top:26px;max-width:800px}
+.simple-hero .hero-sub{margin-top:16px;max-width:640px}
+.offices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px 0 8px}
+.office-card{border:1px solid var(--rule);background:var(--white);padding:18px 20px}
+.office-card h3{font-size:22px;margin-bottom:6px}
+.office-card h3 a{text-decoration:none}
+.office-card h3 a:hover{color:var(--red)}
+.office-card address{font-style:normal;font-size:15px;color:var(--bk2)}
+.office-card .tel{display:block;font-family:var(--cond);font-size:24px;font-weight:700;text-decoration:none;margin-top:8px}
+.office-card .tel:hover{color:var(--red)}
+.article h3{font-size:22px;margin:30px 0 10px}
+.article table{width:100%;border-collapse:collapse;font-size:15px;margin:10px 0 24px}
+.article th{text-align:left;font-family:var(--cond);font-size:16px;border-bottom:2px solid var(--bk);padding:8px 10px 8px 0}
+.article td{border-bottom:1px solid var(--rule);padding:10px 10px 10px 0;vertical-align:top;color:var(--bk2)}
+@media(max-width:760px){.offices{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+{{header}}
+<main>
+<section class="simple-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">{{crumb}}</li></ol></nav>
+    <h1>{{h1}}</h1>
+    <p class="hero-sub">{{heroSub}}</p>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap loc-body">
+    <article class="article">{{body}}</article>
+    <aside class="side">
+      <div class="side-card">
+        <h3>Talk to a dispatcher</h3>
+        <address>Big Apple Car Shipping<br>Ten offices across New York</address>
+        <a class="big" href="tel:__PHONE_TEL__">__PHONE_DISPLAY__</a>
+        <small>Open 7 days a week</small>
+        <a class="btn btn-red" href="/#quote">Get an instant quote</a>
+      </div>
+      <div class="side-list">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="/about/">About us</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/locations/">New York offices</a></li>
+          <li><a href="/licensing-insurance/">Licensing and insurance</a></li>
+          <li><a href="/car-shipping-cost/">What car shipping costs</a></li>
+          <li><a href="/car-shipping-checklist/">Preparation checklist</a></li>
+          <li><a href="/privacy/">Privacy policy</a></li>
+          <li><a href="/terms/">Terms of service</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</section>
+</main>
+{{footer}}
+</body>
+</html>
